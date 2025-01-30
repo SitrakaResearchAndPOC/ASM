@@ -44,6 +44,8 @@ notepad++ hello.c
 void main(){
 	printf("hello world\n");
 }
+Compilation
+```
 ```
 mingw32-gcc.exe -Wall -g  -c main.c -o main.o
 ```
