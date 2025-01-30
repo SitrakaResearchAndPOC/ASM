@@ -47,10 +47,10 @@ void main(){
 ```
 Compilation
 ```
-mingw32-gcc.exe -Wall -g  -c main.c -o main.o
+mingw32-gcc.exe -Wall -g  -c hello.c -o hello.o
 ```
 ```
-mingw32-g++.exe  -o helloworld.exe main.o   
+mingw32-g++.exe  -o helloworld.exe hello.o   
 ```
 
 
