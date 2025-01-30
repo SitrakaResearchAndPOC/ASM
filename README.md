@@ -34,7 +34,7 @@ Etape 2 : En ligne de commande
 D:
 ```
 ```  
-notepad++ hello.c
+notepad hello.c
 ```  
 4. Copier le code :
 ```  
@@ -44,8 +44,8 @@ notepad++ hello.c
 void main(){
 	printf("hello world\n");
 }
-Compilation
 ```
+Compilation
 ```
 mingw32-gcc.exe -Wall -g  -c main.c -o main.o
 ```
