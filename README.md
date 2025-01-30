@@ -38,7 +38,6 @@ notepad++ hello.c
 ```  
 4. Copier le code :
 ```  
-```
 #include <stdio.h>
 #include <stdlib.h>
 
