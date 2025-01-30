@@ -72,6 +72,7 @@ int division(int a, int b);
 ```
 nano mathematique.c
 ```
+```
 // mathematique.c
 #include <stdio.h>
 #include "mathematique.h"
