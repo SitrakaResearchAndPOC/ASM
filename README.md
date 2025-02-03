@@ -109,7 +109,7 @@ gcc -S -o helloworld.s helloworld.c
 
 * Compilation separée
 ```
-nano mathematique.c
+nano mathematique.h
 ```
 ```
 // mathematique.h
