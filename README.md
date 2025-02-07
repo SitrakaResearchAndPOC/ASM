@@ -91,6 +91,9 @@ exit
 ```
 Compilation en un seul commande
 ```
+rm -rf helloworld
+```
+```
 gcc -o helloworld helloworld.c
 ```
 ```
@@ -118,6 +121,16 @@ chmod +x helloworld2
 ```
 ```
 ./helloworld2
+```
+En un seul commande
+```
+gcc -o helloworld3 helloworld.s
+```
+```
+chmod +x helloworld3
+```
+```
+./helloworld3
 ```
 
 
