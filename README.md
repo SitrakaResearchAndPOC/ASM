@@ -106,6 +106,20 @@ exit
 ```
 gcc -S -o helloworld.s helloworld.c
 ```
+* compilation de .s
+```
+gcc -c helloworld.s -o helloworld2.o 
+```
+```
+gcc -o helloworld2 helloworld2.o 
+```
+```
+chmod +x helloworld2
+```
+```
+./helloworld2
+```
+
 
 * Compilation separée
 ```
@@ -206,6 +220,26 @@ chmod +x programme
 ```
 ./programme
 ```
+* Traduction du compilation separée en GAS
+```
+rm -rf *.o
+```
+```
+gcc -S -o mathematique.s mathematique.c
+```
+```
+gcc -S -o main.s main.c
+```
+```
+gcc -o programme2  mathematique.s main.s
+```
+```
+chmod +x programme2
+```
+```
+./programme2
+```
+
 ## voir le code binaire : 
 * Linux/macOS : Utilisez xxd, hexdump ou objdump pour afficher le code hexadécimal.
 * Windows : Utilisez des outils comme HxD ou OllyDbg.
