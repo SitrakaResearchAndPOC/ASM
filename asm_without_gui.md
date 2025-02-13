@@ -7,6 +7,11 @@ mkdir TPC
 cd TPC/
 ```
 ```
+sudo su
+```
+login:asm
+password you should tape espace
+```
 nano helloworld.c
 ```
 Copier le code suivant puis tapez ctrl+x et Y et enter pour enregistrer
