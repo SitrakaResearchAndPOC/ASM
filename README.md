@@ -1,7 +1,7 @@
 # ASM
 ## PRACTICE COMPILATION
-* [ASM_WITH_GUI](https://github.com/SitrakaResearchAndPOC/ASM/blob/main/asm_with_gui)
-* [ASM_WITHOUT_GUI](https://github.com/SitrakaResearchAndPOC/ASM/blob/main/asm_without_gui)
+* [ASM_WITH_GUI](https://github.com/SitrakaResearchAndPOC/ASM/blob/main/asm_with_gui.md)
+* [ASM_WITHOUT_GUI](https://github.com/SitrakaResearchAndPOC/ASM/blob/main/asm_without_gui.md)
  
 ## voir le code binaire : 
 * Linux/macOS : Utilisez xxd, hexdump ou objdump pour afficher le code hexadécimal.
