@@ -1,6 +1,6 @@
 ## INSTALLATION AVEC / SANS INTERNET (GUI Linux)
 Installation VM (VMWARE 17Pro) </br> </br>
-Installation Ubuntu SERVER, de votre choix : ubuntu 20.04 or 22.04 or  ubuntu 24.04 </br> </br>
+Installation Ubuntu SERVER, de votre choix : ubuntu 20.04 or 22.04 ou  ubuntu 24.04 </br> </br>
 
 * Pour ubuntu 20.04 or 22.04
 ```
