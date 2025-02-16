@@ -1,4 +1,4 @@
-## INSTALLATION WITH INTERNET (GUI Linux)
+## INSTALLATION AVEC / SANS INTERNET (GUI Linux)
 ```
 apt update
 ```
