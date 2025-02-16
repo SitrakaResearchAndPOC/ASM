@@ -24,13 +24,16 @@ Process terminated with status -1073741510 (0 minute(s), 2 second(s))
 ```  
 4. Ajouter des erreurs pour voir les logs
 5. Voir les compilateur dans : C:\Program Files (x86)\CodeBlocks\MinGW\bin
-6. Ajouter dans le variable d'environnement le chemin de MinGW\bin et nasm
+6. Ajouter dans le variable d'environnement le chemin de MinGW\bin et nasm et nodepad++
 7. Tester :
 ```
 nasm -v
 ```
 ```
 gcc -v
+```
+```
+nodepad++
 ```
 
 8. Installer extension pour colorier les codes en C
@@ -43,7 +46,7 @@ Etape 2 : En ligne de commande
 D:
 ```
 ```  
-notepad hello.c
+notepad++ hello.c
 ```  
 4. Copier le code :
 ```  
