@@ -219,7 +219,7 @@ programme.exe
 ```
 Ou bien :
 ```
-del *.o programme
+del *.o programme.exe
 ```
 ```
 gcc mathematique.c main.c -o programme.exe  
