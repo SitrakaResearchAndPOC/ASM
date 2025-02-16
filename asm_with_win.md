@@ -97,7 +97,7 @@ helloworld.exe
  ```
 Compilation en un seul commande
 ```
-del  helloworld
+del  helloworld.exe
 ```
 ```
 gcc -o helloworld.exe helloworld.c
