@@ -2,7 +2,7 @@
 # Editeur de lien 
 ## Exercice hello world sous windows 
 Etape 1 : En GUI (Graphical User Interface)
-1. Installer code block avec compilateur GCC, notepad++, git, visualCode, nasm En testant les commandes suivants:
+1. Installer code block avec compilateur GCC, notepad++, git, visualCode, nasm 
 2. Créer un projet hello world
 4. Compiler le projet puis regarder le log
 ```
@@ -35,7 +35,8 @@ gcc -v
 ```
 git -v
 ```
-
+8. Installer extension pour colorier les codes en C
+   
 Etape 2 : En ligne de commande
 1. Tapez win+R et puis cmd
 2. tester la commande : mingw32-gcc et mingw32-g++
