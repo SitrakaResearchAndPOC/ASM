@@ -225,9 +225,6 @@ del *.o programme
 gcc mathematique.c main.c -o programme.exe  
 ```
 ```
-chmod +x programme.exe
-```
-```
 programme.exe
 ```
 * Traduction du compilation separée en GAS
