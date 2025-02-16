@@ -1,15 +1,15 @@
 ## INSTALLATION AVEC / SANS INTERNET (GUI Linux)
 Installation VM (VMWARE 17Pro) </br> </br>
-Installation Ubuntu, de votre choix : ubuntu 20.04 or 22.04 or  ubuntu 24.04 </br> </br>
+Installation Ubuntu SERVER, de votre choix : ubuntu 20.04 or 22.04 or  ubuntu 24.04 </br> </br>
 
-* For ubuntu 20.04 or 22.04
+* Pour ubuntu 20.04 or 22.04
 ```
 apt update
 ```
 ```
 apt install nasm binutils gcc libc6-dev-i386 gcc-multilib git unzip
 ```
-* For ubuntu 24.04
+* Pour ubuntu 24.04
 ```
 apt update
 ```
