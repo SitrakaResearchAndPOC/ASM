@@ -63,6 +63,10 @@ chmod +x helloworld
 ```
 gcc -S -o helloworld.s helloworld.c
 ```
+```
+cat helloworld.s 
+```
+
 * compilation de .s
 ```
 gcc -c helloworld.s -o helloworld2.o 
@@ -197,7 +201,13 @@ rm -rf *.o
 gcc -S -o mathematique.s mathematique.c
 ```
 ```
+cat  mathematique.s
+```
+```
 gcc -S -o main.s main.c
+```
+```
+cat main.s
 ```
 ```
 gcc -o programme2  mathematique.s main.s
