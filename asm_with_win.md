@@ -65,4 +65,4 @@ gcc  -c hello.c -o hello.o
 ```
 gcc -o helloworld.exe hello.o   
 ```
-
+NB : UTILISE VISUALCODE POUR UN IDE
