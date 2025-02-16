@@ -2,7 +2,7 @@
 # Editeur de lien 
 ## Exercice hello world sous windows 
 Etape 1 : En GUI (Graphical User Interface)
-1. Installer code block avec compilateur GCC, notepad++, git, visualCode, nasm 
+1. Installer code block avec compilateur GCC, notepad++, visualCode, nasm 
 2. Créer un projet hello world
 4. Compiler le projet puis regarder le log
 ```
