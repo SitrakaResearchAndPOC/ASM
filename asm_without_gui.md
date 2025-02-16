@@ -1,3 +1,27 @@
+## INSTALLATION AVEC / SANS INTERNET (GUI Linux)
+Installation VM (VMWARE 17Pro) </br> </br>
+Installation Ubuntu, de votre choix : ubuntu 20.04 or 22.04 or  ubuntu 24.04 </br> </br>
+
+* For ubuntu 20.04 or 22.04
+```
+apt update
+```
+```
+apt install nasm binutils gcc libc6-dev-i386 gcc-multilib git unzip
+```
+* For ubuntu 24.04
+```
+apt update
+```
+```
+sudo dpkg --add-architecture i386
+```
+```
+apt install nasm binutils gcc libc6-dev-i386 gcc-multilib git unzip
+```
+</br>
+Configuration reseaux </br> </br>
+OU UTILISER UBUNTU PREINSTALLE (ASM qui est avec dgb-peda et metasploit, MYASM Juste pour compilation)
 
 ## Exercice hello world SOUS LINUX
 ```
@@ -6,11 +30,6 @@ mkdir TPC
 ```
 cd TPC/
 ```
-```
-sudo su
-```
-login:asm
-password you should tape espace
 ```
 nano helloworld.c
 ```
@@ -35,9 +54,6 @@ chmod +x helloworld
 ```
 ./helloworld
  ```
-```
-exit
-```
 Compilation en un seul commande
 ```
 rm -rf helloworld
@@ -51,13 +67,14 @@ chmod +x helloworld
 ```
 ./helloworld
  ```
-```
-exit
-```
 * traduction vers gas :
 ```
 gcc -S -o helloworld.s helloworld.c
 ```
+```
+cat helloworld.s 
+```
+
 * compilation de .s
 ```
 gcc -c helloworld.s -o helloworld2.o 
@@ -172,7 +189,9 @@ chmod +x programme
 ./programme
 ```
 Ou bien :
-
+```
+rm -rf *.o programme
+```
 ```
 gcc mathematique.c main.c -o programme    # Lien des objets et création de l'exécutable
 ```
@@ -190,7 +209,13 @@ rm -rf *.o
 gcc -S -o mathematique.s mathematique.c
 ```
 ```
+cat  mathematique.s
+```
+```
 gcc -S -o main.s main.c
+```
+```
+cat main.s
 ```
 ```
 gcc -o programme2  mathematique.s main.s
@@ -205,4 +230,3 @@ chmod +x programme2
 ## voir le code binaire : 
 * Linux/macOS : Utilisez xxd, hexdump ou objdump pour afficher le code hexadécimal.
 * Windows : Utilisez des outils comme HxD ou OllyDbg.
-
