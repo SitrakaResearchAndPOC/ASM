@@ -46,9 +46,6 @@ chmod +x helloworld
 ```
 ./helloworld
  ```
-```
-exit
-```
 Compilation en un seul commande
 ```
 rm -rf helloworld
@@ -62,9 +59,6 @@ chmod +x helloworld
 ```
 ./helloworld
  ```
-```
-exit
-```
 * traduction vers gas :
 ```
 gcc -S -o helloworld.s helloworld.c
@@ -183,7 +177,9 @@ chmod +x programme
 ./programme
 ```
 Ou bien :
-
+```
+rm -rf *.o programme
+```
 ```
 gcc mathematique.c main.c -o programme    # Lien des objets et création de l'exécutable
 ```
