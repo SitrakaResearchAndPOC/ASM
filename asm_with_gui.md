@@ -1,3 +1,20 @@
+## INSTALLATION WITH INTERNET (GUI Linux)
+```
+apt update
+```
+* For ubuntu 20.04 or 22.04
+```
+apt install nasm binutils gcc libc6-dev-i386 gcc-multilib git unzip
+```
+* For ubuntu 24.04
+```
+sudo dpkg --add-architecture i386
+```
+```
+apt install nasm binutils gcc libc6-dev-i386 gcc-multilib git unzip
+```
+OR USE PREINSTALLED OS (named ASM)
+
 ## Exercice hello world SOUS LINUX
 ```
 mkdir TPC
