@@ -1,8 +1,36 @@
 ## INSTALLATION AVEC / SANS INTERNET (GUI Linux)
 Installation VM (VMWARE 17Pro) </br> </br>
 Installation Ubuntu, de votre choix : ubuntu 20.04 or 22.04 or  ubuntu 24.04 </br> </br>
+Configuration reseaux </br> </br>
+```
+ip a
+```
+```
+ls /etc/netplan/
+```
+```
+sudo nano /etc/netplan/00-installer-config.yaml
+```
+```
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    ens33:
+      dhcp4: yes
+```
+```
+sudo netplan apply
+```
+```
+sudo netplan try
+```
+S'il y a des erreurs, regarder les logs
+```
+journalctl -u systemd-networkd
+```
 
-* For ubuntu 20.04 or 22.04
+* Pour ubuntu 20.04 or 22.04
 ```
 apt update
 ```
@@ -19,8 +47,6 @@ sudo dpkg --add-architecture i386
 ```
 apt install nasm binutils gcc libc6-dev-i386 gcc-multilib git unzip
 ```
-</br>
-Configuration reseaux </br> </br>
 OU UTILISER UBUNTU PREINSTALLE (ASM qui est avec dgb-peda et metasploit, MYASM Juste pour compilation)
 
 ## Exercice hello world SOUS LINUX
