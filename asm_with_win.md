@@ -2,9 +2,9 @@
 # Editeur de lien 
 ## Exercice hello world sous windows 
 Etape 1 : En GUI (Graphical User Interface)
-1. Installer code block et notepad++
+1. Installer code block avec compilateur GCC, notepad++, git, visualCode, nasm En testant les commandes suivants:
 2. Créer un projet hello world
-3. Compiler le projet puis regarder le log
+4. Compiler le projet puis regarder le log
 ```
 -------------- Build: Debug in helloworld (compiler: GNU GCC Compiler)---------------
 
@@ -24,7 +24,17 @@ Process terminated with status -1073741510 (0 minute(s), 2 second(s))
 ```  
 4. Ajouter des erreurs pour voir les logs
 5. Voir les compilateur dans : C:\Program Files (x86)\CodeBlocks\MinGW\bin
-6. Ajouter dans le variable d'environnement le chemin de MinGW\bin
+6. Ajouter dans le variable d'environnement le chemin de MinGW\bin et nasm
+7. Tester :
+```
+nasm -v
+```
+```
+gcc -v
+```
+```
+git -v
+```
 
 Etape 2 : En ligne de commande
 1. Tapez win+R et puis cmd
@@ -48,9 +58,9 @@ int main(){
 ```
 Compilation
 ```
-mingw32-gcc.exe -Wall -g  -c hello.c -o hello.o
+gcc  -c hello.c -o hello.o
 ```
 ```
-mingw32-g++.exe  -o helloworld.exe hello.o   
+gcc -o helloworld.exe hello.o   
 ```
 
