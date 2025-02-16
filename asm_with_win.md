@@ -206,13 +206,13 @@ int main() {
 
 ```
 ```
-gcc -c mathematique.c -o mathematique.o  # Compilation du fichier mathematique.c
+gcc -c mathematique.c -o mathematique.o 
 ```
 ```
-gcc -c main.c -o main.o                  # Compilation du fichier main.c
+gcc -c main.c -o main.o                
 ```
 ```
-gcc mathematique.o main.o -o programme.exe    # Lien des objets et création de l'exécutable
+gcc mathematique.o main.o -o programme.exe   
 ```
 ```
 programme.exe
@@ -222,7 +222,7 @@ Ou bien :
 del *.o programme
 ```
 ```
-gcc mathematique.c main.c -o programme.exe    # Lien des objets et création de l'exécutable
+gcc mathematique.c main.c -o programme.exe  
 ```
 ```
 chmod +x programme.exe
