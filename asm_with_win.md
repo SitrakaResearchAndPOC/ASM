@@ -32,9 +32,7 @@ nasm -v
 ```
 gcc -v
 ```
-```
-git -v
-```
+
 8. Installer extension pour colorier les codes en C
    
 Etape 2 : En ligne de commande
