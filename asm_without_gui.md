@@ -57,16 +57,10 @@ mkdir TPC
 cd TPC/
 ```
 ```
-nano helloworld.c
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/ASM/refs/heads/main/helloworld.c
 ```
-Copier le code suivant puis tapez ctrl+x et Y et enter pour enregistrer
 ```
-#include <stdio.h>
-#include <stdlib.h>
-
-void main(){
-	printf("hello world\n");
-}
+cat main.c
 ```
 ```
 gcc -c helloworld.c
@@ -128,76 +122,13 @@ chmod +x helloworld3
 
 * Compilation separée
 ```
-nano mathematique.h
+wget  https://raw.githubusercontent.com/SitrakaResearchAndPOC/ASM/refs/heads/main/mathematique.h
 ```
 ```
-// mathematique.h
-#ifndef MATHEMATIQUE_H
-#define MATHEMATIQUE_H
-
-// Prototypes des fonctions
-int addition(int a, int b);
-int soustraction(int a, int b);
-int multiplication(int a, int b);
-int division(int a, int b);
-
-#endif
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/ASM/refs/heads/main/mathematique.c
 ```
 ```
-nano mathematique.c
-```
-```
-// mathematique.c
-#include <stdio.h>
-#include "mathematique.h"
-
-// Fonction pour additionner deux entiers
-int addition(int a, int b) {
-    return a + b;
-}
-
-// Fonction pour soustraire deux entiers
-int soustraction(int a, int b) {
-    return a - b;
-}
-
-// Fonction pour multiplier deux entiers
-int multiplication(int a, int b) {
-    return a * b;
-}
-
-// Fonction pour diviser deux entiers
-// Remarque : on suppose que b n'est pas nul.
-int division(int a, int b) {
-    if (b == 0) {
-        printf("Erreur : Division par zéro!\n");
-        return 0; // ou une autre valeur spéciale en cas d'erreur
-    }
-    return a / b;
-}
-```
-```
-nano main.c
-```
-```
-
-// main.c
-#include <stdio.h>
-#include "mathematique.h"
-
-int main() {
-    int a = 10;
-    int b = 5;
-
-    // Test des fonctions
-    printf("Addition de %d et %d : %d\n", a, b, addition(a, b));
-    printf("Soustraction de %d et %d : %d\n", a, b, soustraction(a, b));
-    printf("Multiplication de %d et %d : %d\n", a, b, multiplication(a, b));
-    printf("Division de %d et %d : %d\n", a, b, division(a, b));
-
-    return 0;
-}
-
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/ASM/refs/heads/main/main.c
 ```
 ```
 gcc -c mathematique.c -o mathematique.o  # Compilation du fichier mathematique.c
