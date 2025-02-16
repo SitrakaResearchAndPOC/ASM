@@ -1,19 +1,27 @@
 ## INSTALLATION AVEC / SANS INTERNET (GUI Linux)
+Installation VM (VMWARE 17Pro) </br> </br>
+Installation Ubuntu, de votre choix : ubuntu 20.04 or 22.04 or  ubuntu 24.04 </br> </br>
+
+* For ubuntu 20.04 or 22.04
 ```
 apt update
 ```
-* For ubuntu 20.04 or 22.04
 ```
 apt install nasm binutils gcc libc6-dev-i386 gcc-multilib git unzip
 ```
 * For ubuntu 24.04
+```
+apt update
+```
 ```
 sudo dpkg --add-architecture i386
 ```
 ```
 apt install nasm binutils gcc libc6-dev-i386 gcc-multilib git unzip
 ```
-OR USE PREINSTALLED OS (named ASM qui est avec dgb-peda et metasploit, MYASM Juste pour compilation)
+</br>
+Configuration reseaux </br> </br>
+OU UTILISER UBUNTU PREINSTALLE (ASM qui est avec dgb-peda et metasploit, MYASM Juste pour compilation)
 
 ## Exercice hello world SOUS LINUX
 ```
