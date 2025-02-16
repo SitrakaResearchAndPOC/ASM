@@ -29,6 +29,10 @@ S'il y a des erreurs, regarder les logs
 ```
 journalctl -u systemd-networkd
 ```
+Tester ping 8.8.8.8, si ok avec TLL=...
+```
+ping 8.8.8.8
+```
 
 * Pour ubuntu 20.04 or 22.04
 ```
