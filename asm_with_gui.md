@@ -13,7 +13,7 @@ sudo dpkg --add-architecture i386
 ```
 apt install nasm binutils gcc libc6-dev-i386 gcc-multilib git unzip
 ```
-OR USE PREINSTALLED OS (named ASM)
+OR USE PREINSTALLED OS (named ASM qui est avec dgb-peda et metasploit, MYASM Juste pour compilation)
 
 ## Exercice hello world SOUS LINUX
 ```
