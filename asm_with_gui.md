@@ -1,8 +1,16 @@
 ## INSTALLATION AVEC / SANS INTERNET (GUI Linux)
+# Installation des dependances
 Installation VM (VMWARE 17Pro) </br> </br>
-Installation Ubuntu SERVER, de votre choix : ubuntu 20.04 or 22.04 ou  ubuntu 24.04 </br> </br>
+Installation Ubuntu, de votre choix : ubuntu 20.04 ou 22.04 ou  ubuntu 24.04 </br> </br>
+Configuration reseaux </br> </br>
 
 * Pour ubuntu 20.04 or 22.04
+```
+mkdir HELLO
+```
+```
+cd HELLO
+```
 ```
 apt update
 ```
@@ -19,9 +27,28 @@ sudo dpkg --add-architecture i386
 ```
 apt install nasm binutils gcc libc6-dev-i386 gcc-multilib git unzip
 ```
+* Installation vscode
+```
+sudo apt install software-properties-common apt-transport-https curl
+```
+```
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+```
+```
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+```
+```
+sudo apt install code
+```
+
+OU UTILISER UBUNTU PREINSTALLE (ASM qui est avec dgb-peda et metasploit, MYASM Juste pour compilation) </br>
+
+* sans retour à la ligne
+
 </br>
-Configuration reseaux </br> </br>
-OU UTILISER UBUNTU PREINSTALLE (ASM qui est avec dgb-peda et metasploit, MYASM Juste pour compilation)
+POUR L'EDITEUR DE TEXTE : NANO ou GEDIT SONT DES CHOIX</br> 
+POUR NANO : TAPER CTRL+Y PUIS ENTREE POUR SAUVEGARDER </br>
+POUR GEDIT : TAPER CTRL+S POUR SAUVEGARDER </br>  </br>
 
 ## Exercice hello world SOUS LINUX
 ```
