@@ -35,8 +35,11 @@ gcc -v
 ```
 nodepad++
 ```
+```
+curl --help
+```
 
-8. Installer extension pour colorier les codes en C
+8. Installer extension NASM pour colorier les codes en nasm
    
 Etape 2 : En ligne de commande
 1. Tapez win+R et puis cmd
