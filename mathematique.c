@@ -1,16 +1,28 @@
-// main.c
+// mathematique.c
 #include <stdio.h>
 #include "mathematique.h"
 
-int main() {
-    int a = 10;
-    int b = 5;
+// Fonction pour additionner deux entiers
+int addition(int a, int b) {
+    return a + b;
+}
 
-    // Test des fonctions
-    printf("Addition de %d et %d : %d\n", a, b, addition(a, b));
-    printf("Soustraction de %d et %d : %d\n", a, b, soustraction(a, b));
-    printf("Multiplication de %d et %d : %d\n", a, b, multiplication(a, b));
-    printf("Division de %d et %d : %d\n", a, b, division(a, b));
+// Fonction pour soustraire deux entiers
+int soustraction(int a, int b) {
+    return a - b;
+}
 
-    return 0;
+// Fonction pour multiplier deux entiers
+int multiplication(int a, int b) {
+    return a * b;
+}
+
+// Fonction pour diviser deux entiers
+// Remarque : on suppose que b n'est pas nul.
+int division(int a, int b) {
+    if (b == 0) {
+        printf("Erreur : Division par zéro!\n");
+        return 0; // ou une autre valeur spéciale en cas d'erreur
+    }
+    return a / b;
 }
