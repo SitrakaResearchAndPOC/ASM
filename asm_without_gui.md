@@ -64,7 +64,7 @@ cd TPC/
 wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/ASM/refs/heads/main/helloworld.c
 ```
 ```
-cat main.c
+cat helloworld.c
 ```
 ```
 gcc -c helloworld.c
