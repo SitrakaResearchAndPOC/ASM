@@ -184,5 +184,3 @@ gcc -nostartfiles -o hello hello.s
 ## Conclusion
 
 L'assembleur est un outil puissant pour programmer directement au niveau du processeur. Chaque assembleur a ses spécificités et convient à différents cas d'utilisation. MASM et TASM sont plus adaptés aux environnements Windows, tandis que NASM, GAS et FASM sont souvent utilisés pour le développement système et les applications bas niveau.
-
-Ce guide vous permet de commencer avec ces assembleurs et d'exécuter votre premier programme en assembleur ! 🚀
